@@ -1,15 +1,11 @@
- $(document).ready(() => {
- 
-    $('.projects div a').mouseenter(function(e) {
-        $(this).find('.project').css({
-            'transform': 'rotateY(180deg)'
-        })
-    })
-    
-    $('.projects div a').mouseleave(function(e) {
-        $(this).find('.project').css({
-            'transform': 'rotateY(0deg)'
-        })
-    })
-
- });
+document.addEventListener('DOMContentLoaded', () => {
+   document.querySelectorAll('.projects div a').forEach(project => {
+       project.addEventListener('mouseenter', e => {
+           e.target.querySelector('.project').style.transform = 'rotateY(180deg)';
+       });
+       
+       project.addEventListener('mouseleave', e => {
+           e.target.querySelector('.project').style.transform = 'rotateY(0deg)';
+       });
+   });
+});

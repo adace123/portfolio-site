@@ -95,8 +95,8 @@ li {
 }
 
 .project {
-  width: 460px;
   margin-left: 25px;
+  width: 460px;
   margin-top: 30px;
   height: 350px;
   transition: all .7s ease;
@@ -108,15 +108,28 @@ li {
   backface-visibility: hidden;
   z-index: 2;
   transform: rotateY(0deg);
-   -ms-transform: rotateY(0deg);
   position: relative;
+  border: none;
 }
 
-.project:hover {
+.project-info {
+  margin: 0 auto;
   transform: rotateY(180deg);
-   -ms-transform: rotateY(180deg);
-  cursor: pointer;
+  position: absolute;
+  backface-visibility: hidden;
+  height: 100%;
+  width: 100%;
+  background: #1abc9c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
+
+/*.project:hover {*/
+/*  transform: rotateY(180deg);*/
+/*  cursor: pointer;*/
+/*}*/
 
 .project-caption {
   text-align: center;
@@ -127,19 +140,7 @@ li {
   text-transform: uppercase;
 }
 
-.project-info {
-  margin: 0 auto;
-  transform: rotateY(180deg);
-   -ms-transform: rotateY(180deg);
-  position: absolute;
-  backface-visibility: hidden;
-  height: 100%;
-  width: 100%;
-  background: #1abc9c;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
+
 
 .project-info p {
   width: 75%;

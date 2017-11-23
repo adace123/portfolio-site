@@ -1,8 +1,19 @@
+@media only screen and (max-width: 1200px) {
+    .footer * {
+    flex: 1 0 50%;  
+  }
+  
+  .footer div {
+    margin: .5em;
+  }
+}
+
 @media only screen and (max-width: 1000px) {
   .container {
     flex-basis: 50%;
     width: 66%;
   }
+  
 }
 
 @media only screen and (max-width: 768px) {
@@ -14,13 +25,7 @@
     font-size: 18px;
   }
   
-  .footer * {
-    flex: 1 0 100%;  
-  }
   
-  .footer div {
-    margin: .6em;
-  }
   
   .profile p {
     width: 100%;
@@ -35,7 +40,7 @@
     display: block;
     margin: 0 auto;
   }
-  
+
   .links li {
     display: block;
     margin-bottom: 8px;

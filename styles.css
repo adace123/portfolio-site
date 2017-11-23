@@ -257,6 +257,7 @@ li {
   .projects,.nav {
     flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
   .container {
     width: 95vw;
@@ -264,7 +265,7 @@ li {
     flex-basis: 100%;
   }
   .image {
-    height: 175px;
-    width: 175px;
+    height: 10vh;
+    width: 10vw;
   }
 }

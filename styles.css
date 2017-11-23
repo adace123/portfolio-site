@@ -243,10 +243,10 @@ li {
     margin-right: 25px;
   }
   .project-caption {
-    font-size: 20px;
+    font-size: 16px;
   }
   .project {
-   height: 50vh; 
+   height: 80vh; 
    width: 85%;
   }
   .projects,.nav {
@@ -255,6 +255,7 @@ li {
   }
   .container {
     width: 85%;
+    height: 80vh;
     flex-basis: 100%;
     margin-top: 10px;
   }

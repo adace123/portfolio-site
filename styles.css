@@ -13,7 +13,7 @@ body {
 
 .nav li {
   font-size: 16px;
-  padding-left: 20px;
+  padding-left: 1.4em;
 }
 
 a {
@@ -29,7 +29,7 @@ a:hover {
 
 .logo {
   font-weight: bold; 
-  font-size: 24px;
+  font-size: 1.4em;
 }
 
 li {
@@ -41,7 +41,7 @@ li {
   display: flex;
   justify-content: space-between;
   background: #1abc9c;
-  padding: 100px;
+  padding: 8%;
   color: white;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -60,7 +60,7 @@ li {
 }
 
 .profile p {
-  line-height: 24px;
+  line-height: 1.3em;
   font-size: 16px;
   display: inline-block;
   position: relative;
@@ -101,10 +101,9 @@ li {
 
 .container {
   /*margin-left: 25px;*/
-  margin: 0 15px;
+  margin: 30px 15px;
   flex-basis: 32%;
   flex-grow: 1;
-  margin-top: 30px;
 }
 
 .project {
@@ -187,87 +186,4 @@ li {
   font-size: 20px;
   text-transform:uppercase;
   margin-bottom: 25px;
-}
-
-@media only screen and (max-width: 1000px) {
-  .container {
-    flex-basis: 50%;
-    width: 66%;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .footer-section {
-    margin-bottom: 35px;
-  }
-  
-  .nav {
-   flex-direction: column;
-    font-size: 24px;
-  }
-  
-  .footer * {
-    flex: 1 0 100%;  
-  }
-  
-  .profile {
-    padding: 35px 15px;
-    height: 100vh;
-    margin: 0;
-  }
-  
-  .profile p {
-    width: 100%;
-    font-size: 18px;
-  }
-  
-  .profile h1 {
-    width: 100%;
-    font-size: 24px;
-  }
-
-  .profile {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  
- .nav {
-    display: block;
-    margin: 0 auto;
-    padding: 40px;
-    text-align: center;
-  }
-  .links li {
-    display: block;
-    margin-bottom: 8px;
-  }
-  .links li a {
-    margin-right: 25px;
-  }
-  .project-caption {
-    font-size: 16px;
-  }
-  .project {
-    height: 75vh; 
-    width: 90vw;
-    margin: 0;
-  }
-  .projects {
-    padding: 30px 0; 
-  }
-  .projects,.nav {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .container {
-    width: 90vw;
-    height: 80vh;
-    flex-basis: 100%;
-    margin: 0;
-  }
-  .image {
-    height: 30vh;
-    width: 35vw;
-  }
 }

@@ -234,6 +234,8 @@ li {
  .nav {
     display: block;
     margin: 0 auto;
+    padding: 40px;
+    text-align: center;
   }
   .links li {
     display: block;

@@ -202,15 +202,15 @@ li {
   }
   
   body {
-    font-size: 18px;
+    font-size: 24px;
   }
   
   .footer * {
-    flex: 1 0 60%;  
+    flex: 1 0 100%;  
   }
   
   .profile {
-    padding: 10px;
+    padding: 20px;
     margin: 0;
   }
   
@@ -243,5 +243,6 @@ li {
   .container {
     width: 85%;
     flex-basis: 100%;
+    margin-top: 10px;
   }
 }

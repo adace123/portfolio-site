@@ -247,6 +247,7 @@ li {
   }
   .project {
    height: 50vh; 
+   width: 85%;
   }
   .projects,.nav {
     flex-direction: column;

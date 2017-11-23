@@ -52,7 +52,7 @@ li {
   flex-direction: column;
   justify-content: center;
   background: #eeeeee;
-  padding: 75px;
+  padding: 1.7em 0;
 }
 
 .profile p, h1 {

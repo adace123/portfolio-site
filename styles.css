@@ -77,8 +77,8 @@ li {
 
 .image {
   margin: 0 auto;
-  height: 156px;
-  width: 156px;
+  height: 7em;
+  width: 8em;
   background: url('https://images.pexels.com/photos/110854/pexels-photo-110854.jpeg?w=940&h=650&auto=compress&cs=tinysrgb');
   background-size: cover;
   background-position: center;

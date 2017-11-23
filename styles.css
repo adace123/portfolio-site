@@ -211,12 +211,14 @@ li {
   }
   
   .profile {
-    padding: 20px;
+    padding: 10px;
+    height: 100vh;
     margin: 0;
   }
   
   .profile p {
     width: 100%;
+    font-size: 24px;
   }
 
   .profile {
@@ -238,13 +240,15 @@ li {
   .project-caption {
     font-size: 24px;
   }
+  .project {
+   height: 50vh; 
+  }
   .projects,.nav {
     flex-direction: column;
     align-items: center;
   }
   .container {
     width: 85%;
-    height: 50vh;
     flex-basis: 100%;
     margin-top: 10px;
   }

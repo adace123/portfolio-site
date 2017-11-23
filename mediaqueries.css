@@ -22,11 +22,6 @@
     margin: .6em;
   }
   
-  .profile {
-    padding: 10px;
-    margin: 0;
-  }
-  
   .profile p {
     width: 100%;
   }
@@ -40,6 +35,7 @@
     display: block;
     margin: 0 auto;
   }
+  
   .links li {
     display: block;
     margin-bottom: 8px;

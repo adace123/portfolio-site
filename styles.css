@@ -184,7 +184,7 @@ box-shadow: 18px 14px 5px -7px rgba(163,163,163,1);
 }
 
 @media only screen and (max-width: 768px) {
-  body{
+  * {
    font-size: 18px; 
   }
   
@@ -218,5 +218,7 @@ box-shadow: 18px 14px 5px -7px rgba(163,163,163,1);
   }
   .project {
     margin: 15px auto;
+    width: 80%;
   }
+  
 }

@@ -252,7 +252,7 @@ li {
     width: 90vw;
   }
   .projects {
-   padding: 30px 0; 
+    padding: 30px 0; 
   }
   .projects,.nav {
     flex-direction: column;
@@ -263,6 +263,7 @@ li {
     width: 90vw;
     height: 80vh;
     flex-basis: 100%;
+    margin: 0;
   }
   .image {
     height: 30vh;

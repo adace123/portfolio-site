@@ -246,7 +246,7 @@ li {
     font-size: 16px;
   }
   .project {
-    height: 80vh; 
+    height: 75vh; 
     width: 95vw;
   }
   .projects,.nav {
@@ -257,6 +257,9 @@ li {
     width: 95vw;
     height: 80vh;
     flex-basis: 100%;
-    margin-top: 10px;
+  }
+  .image {
+    height: 175px;
+    width: 175px;
   }
 }

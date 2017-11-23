@@ -201,7 +201,8 @@ li {
     margin-bottom: 35px;
   }
   
-  body {
+  .nav {
+   flex-direction: column;
     font-size: 24px;
   }
   
@@ -234,7 +235,8 @@ li {
   .links li a {
     margin-right: 25px;
   }
-  .project {
+  .project-caption {
+    font-size: 24px;
   }
   .projects,.nav {
     flex-direction: column;
@@ -242,6 +244,7 @@ li {
   }
   .container {
     width: 85%;
+    height: 50vh;
     flex-basis: 100%;
     margin-top: 10px;
   }

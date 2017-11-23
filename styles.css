@@ -39,7 +39,6 @@ li {
 
 .nav {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   background: #1abc9c;
   padding: 100px;
@@ -87,26 +86,29 @@ li {
 }
 
 .projects {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding: 70px 60px;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
 }
 
 .project, .project-info {
   -webkit-box-shadow: 18px 14px 5px -7px rgba(163,163,163,1);
--moz-box-shadow: 18px 14px 5px -7px rgba(163,163,163,1);
-box-shadow: 18px 14px 5px -7px rgba(163,163,163,1);
+  -moz-box-shadow: 18px 14px 5px -7px rgba(163,163,163,1);
+  box-shadow: 18px 14px 5px -7px rgba(163,163,163,1);
 }
 
 .container {
-  margin-left: 25px;
+  /*margin-left: 25px;*/
+  margin: 0 15px;
+  flex-basis: 32%;
+  flex-grow: 1;
+  margin-top: 30px;
 }
 
 .project {
-  width: 460px;
-  margin-top: 30px;
+  /*width: 460px;*/
   height: 350px;
   transition: all .7s ease;
   transform-style: preserve-3d;
@@ -132,6 +134,10 @@ box-shadow: 18px 14px 5px -7px rgba(163,163,163,1);
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.projects div a:hover .project {
+  transform: rotateY(180deg) scale(1.05);
 }
 
 .project-caption {
@@ -183,17 +189,29 @@ box-shadow: 18px 14px 5px -7px rgba(163,163,163,1);
   margin-bottom: 25px;
 }
 
-@media only screen and (max-width: 768px) {
-  * {
-   font-size: 18px; 
+@media only screen and (max-width: 1000px) {
+  .container {
+    flex-basis: 50%;
+    width: 66%;
   }
-  
+}
+
+@media only screen and (max-width: 768px) {
   .footer-section {
     margin-bottom: 35px;
-  } 
+  }
+  
+  body {
+    font-size: 18px;
+  }
   
   .footer * {
     flex: 1 0 60%;  
+  }
+  
+  .profile {
+    padding: 10px;
+    margin: 0;
   }
   
   .profile p {
@@ -204,7 +222,7 @@ box-shadow: 18px 14px 5px -7px rgba(163,163,163,1);
     padding-left: 10px;
     padding-right: 10px;
   }
- 
+  
  .nav {
     display: block;
     margin: 0 auto;
@@ -217,8 +235,13 @@ box-shadow: 18px 14px 5px -7px rgba(163,163,163,1);
     margin-right: 25px;
   }
   .project {
-    margin: 15px auto;
-    width: 80%;
   }
-  
+  .projects,.nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  .container {
+    width: 85%;
+    flex-basis: 100%;
+  }
 }

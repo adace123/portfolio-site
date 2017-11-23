@@ -220,6 +220,11 @@ li {
     width: 100%;
     font-size: 24px;
   }
+  
+  .profile h1 {
+    width: 100%;
+    font-size: 48px;
+  }
 
   .profile {
     padding-left: 10px;

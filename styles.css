@@ -1,34 +1,42 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
 body {
   text-align: center;
   font-family: 'Open Sans', monospace;
   margin: 0;
   padding: 0;
 }
+
 .nav li, ul {
   display: inline;
 }
+
 .nav li {
   font-size: 18px;
   padding-left: 1.4em;
 }
+
 a {
   cursor: pointer;
   font-size: 16px;
   text-decoration: none;
   color: white;
 }
+
 a:hover {
   color: black;  
 }
+
 .logo {
   font-weight: bold; 
   font-size: 1.4em;
 }
+
 li {
   list-style-type: none;  
   color: white;
 }
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -38,6 +46,7 @@ li {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
+
 .profile {
   display: flex;
   flex-direction: column;
@@ -45,12 +54,15 @@ li {
   background: #eeeeee;
   padding: 1.7em 1.2em;
 }
+
 .profile p, h1 {
   margin-bottom: 15px;  
 }
+
 .profile-link {
   color: #1abc9c;
 }
+
 .profile p {
   line-height: 1.3em;
   font-size: 16px;
@@ -61,10 +73,12 @@ li {
   color: #555;
   width: 50%;
 }
+
 .profile h1 {
   font-weight: 700;
   font-size: 35px;
 }
+
 .image {
   margin: 0 auto;
   height: 7em;
@@ -74,24 +88,29 @@ li {
   background-position: center;
   border-radius: 50%;
 }
+
 .projects {
-  padding: 70px 60px;
+  /*padding: 70px 60px;*/
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
+
 .project, .project-info {
   -webkit-box-shadow: 18px 14px 5px -7px rgba(163,163,163,1);
   -moz-box-shadow: 18px 14px 5px -7px rgba(163,163,163,1);
   box-shadow: 18px 14px 5px -7px rgba(163,163,163,1);
 }
+
 .container {
   /*margin-left: 25px;*/
-  margin: 30px 15px;
-  flex-basis: 32%;
+  margin: 1% 1%;
+  width: 30%;
   flex-grow: 1;
+  
 }
+
 .project {
   /*width: 460px;*/
   height: 350px;
@@ -107,21 +126,31 @@ li {
   position: relative;
   border: none;
 }
+
 .project-info {
   margin: 0 auto;
-  transform: rotateY(180deg);
+  /*transform: rotateY(180deg);*/
   position: absolute;
-  backface-visibility: hidden;
+  /*backface-visibility: hidden;*/
   height: 100%;
   width: 100%;
+  transition: all .4s ease;
+  opacity: 0;
   background: #1abc9c;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.projects div a:hover .project {
-  transform: rotateY(180deg) scale(1.05);
+
+.container:hover a .project-info {
+  opacity: 1;
 }
+
+/*.projects div a:hover .project {*/
+  /*transform: rotateY(180deg);*/
+/*  opacity: 1;*/
+/*}*/
+
 .project-caption {
   text-align: center;
   width: 100%;
@@ -129,12 +158,15 @@ li {
   margin: 0 auto;
   padding: 10px 0;
   text-transform: uppercase;
+
 }
+
 .project-info p {
   width: 75%;
   margin: 0 auto;
   color: white;
 }
+
 .footer {
   display: flex;
   flex-wrap: wrap;
@@ -142,22 +174,27 @@ li {
   background: #2f2f2f;
   padding: 1em;
 }
+
 .footer-section li, .footer-section li a {
   margin-bottom: .5em;
   font-size: 18px;
   width: 80%;
   overflow-wrap: break-word;
 }
+
 .footer * {
   margin: 0 auto;
   flex: 1 0 33.3%;
 }
+
 .footer-section li a {
   color: #1abc9c;  
 }
+
 .footer-section li a:hover {
   color: #7b7b7b;  
 }
+
 .footer-heading {
   color: white;
   font-size: 20px;

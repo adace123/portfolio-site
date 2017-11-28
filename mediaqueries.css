@@ -1,44 +1,58 @@
+
+
 @media only screen and (max-width: 1200px) {
-    .footer * {
-    flex-basis: 50%;  
-  }
-  .footer div {
-    margin: .5em;
-    font-size: 22px;
-  }
-}
-@media only screen and (max-width: 1000px) {
   .container {
-    flex-basis: 50%;
-    width: 66%;
-  } 
+    /*flex-basis: 40%;*/
+    width: 35%;
+  }
+  
 }
-@media only screen and (max-width: 768px) { 
+
+@media only screen and (max-width: 1000px) {
+  .footer {
+    /*flex-basis: 40%;*/
+    display: block;
+  }
+  
+  .footer div {
+    margin-bottom: 5%;
+  }
+  
+}
+
+@media only screen and (max-width: 768px) {
+  
   * {
     font-size: 18px;
   }
+
   .profile p {
     width: 100%;
   }
+
   .profile {
     padding: 10% 2%;
   }
+  
  .nav {
     display: block;
     margin: 0 auto;
     padding: 2em;
   }
+
   .links li {
     display: block;
     margin: .4em;
     padding: 0;
   }
+
   .projects {
     padding: 2em 1em;
   }
+  
   .container {
     width: 90%;
     flex-basis: 100%;
-    margin: 0;
+    margin: 5%;
   }
 }

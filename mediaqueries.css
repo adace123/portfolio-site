@@ -2,7 +2,6 @@
 
 @media only screen and (max-width: 1200px) {
   .container {
-    /*flex-basis: 40%;*/
     width: 35%;
   }
   
@@ -10,12 +9,13 @@
 
 @media only screen and (max-width: 1000px) {
   .footer {
-    /*flex-basis: 40%;*/
-    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   
   .footer div {
-    margin-bottom: 5%;
+    margin: 15px;
   }
   
 }

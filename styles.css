@@ -23,6 +23,10 @@ a {
   color: white;
 }
 
+i {
+  margin-right: 10px; 
+}
+
 a:hover {
   color: black;  
 }

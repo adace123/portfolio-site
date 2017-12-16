@@ -83,18 +83,16 @@ li {
   font-size: 35px;
 }
 
-.image {
+.image img {
   margin: 0 auto;
   height: 7em;
   width: 8em;
-  background: url('https://images.pexels.com/photos/110854/pexels-photo-110854.jpeg?w=940&h=650&auto=compress&cs=tinysrgb');
   background-size: cover;
   background-position: center;
   border-radius: 50%;
 }
 
 .projects {
-  /*padding: 70px 60px;*/
   display: flex;
   justify-content: center;
   align-items: center;
@@ -108,7 +106,6 @@ li {
 }
 
 .container {
-  /*margin-left: 25px;*/
   margin: 1% 1%;
   width: 30%;
   flex-grow: 1;
@@ -116,7 +113,6 @@ li {
 }
 
 .project {
-  /*width: 460px;*/
   height: 350px;
   transition: all .7s ease;
   transform-style: preserve-3d;
@@ -129,6 +125,30 @@ li {
   transform: rotateY(0deg);
   position: relative;
   border: none;
+}
+
+#music {
+  background-image: url('./portfolio_images/musicstore.jpg');
+}
+
+#travel {
+  background-image: url('./portfolio_images/travel.jpg');
+}
+
+#diary {
+  background-image: url('./portfolio_images/diary.jpg');
+}
+
+#emailer {
+  background-image: url('./portfolio_images/emailer.jpg');
+}
+
+#city {
+  background-image: url('./portfolio_images/cityexplorer.jpg');
+}
+
+#solar {
+  background-image: url('./portfolio_images/solarsystem.jpg');
 }
 
 .project-info {
@@ -174,21 +194,19 @@ li {
 .footer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   background: #2f2f2f;
   padding: 1em;
 }
 
 .footer-section li, .footer-section li a {
-  margin-bottom: .5em;
+  margin-top: .5em;
   font-size: 18px;
-  width: 80%;
   overflow-wrap: break-word;
 }
 
-.footer * {
-  margin: 0 auto;
-  flex: 1 0 33.3%;
+.footer div {
+  flex-basis: 33%;
 }
 
 .footer-section li a {

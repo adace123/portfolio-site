@@ -211,6 +211,10 @@ li {
   color: #1abc9c;  
 }
 
+#about, .footer-section p i {
+  color: white; 
+}
+
 .footer-section p a:hover {
   color: #7b7b7b;  
 }

@@ -199,7 +199,7 @@ li {
   padding: 1em;
 }
 
-.footer-section span, .footer-section span a {
+.footer-section p, .footer-section p a {
   margin-top: .5em;
   font-size: 18px;
   overflow-wrap: break-word;
@@ -209,11 +209,11 @@ li {
   flex-basis: 33%;
 }
 
-.footer-section span a {
+.footer-section p a {
   color: #1abc9c;  
 }
 
-.footer-section span a:hover {
+.footer-section p a:hover {
   color: #7b7b7b;  
 }
 
